@@ -1,0 +1,19 @@
+package JavaTutorial;
+
+public class JavaTutorial_Bank_interest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		double dep=500000;
+		float time = 5;
+		double interest = 6.8;
+		
+		System.out.println("Total interest:");
+		System.out.println((dep*time*interest)/100);
+		System.out.println("Total Amount with interest is:");
+		System.out.println(((dep*time*interest)/100)+dep);
+	}
+
+}
